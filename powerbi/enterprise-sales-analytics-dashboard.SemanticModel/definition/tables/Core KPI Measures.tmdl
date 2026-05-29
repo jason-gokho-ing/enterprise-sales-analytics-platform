@@ -1,0 +1,72 @@
+table 'Core KPI Measures'
+	lineageTag: eebfbe20-5036-4dae-9d5a-ee709297a962
+
+	measure 'Total Sales' = SUMX(sales_analytics, sales_analytics[qty] * sales_analytics[unit_price])
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: dd306e03-b2db-4d31-a8ee-636723fe275c
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Total Gross Profit' =
+			SUMX(
+			   sales_analytics,
+			   sales_analytics[qty] * (sales_analytics[unit_price] - sales_analytics[cost]))
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: c3b9971f-be0a-4544-8530-9c4c4fe6a650
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Profit Margin %' =
+			
+			DIVIDE([Total Gross Profit], [Total Sales], 0)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: da1984aa-0e98-43b8-9b80-7fecd66321c8
+
+	measure 'Total Orders' = DISTINCTCOUNT(sales_analytics[order_id])
+		formatString: 0
+		lineageTag: 1a547669-b346-48d5-91fe-eb32471b9389
+
+	measure 'Sales per Customer' =
+			
+			DIVIDE([Total Sales], [Unique Customers], 0)
+		formatString: \$#,0.00;($#,0.00);\$#,0.00
+		lineageTag: 2b0b5e8c-0e5b-4c73-8a5b-8b33f7a5d008
+
+	measure 'Gross Profit per Customer' =
+			
+			DIVIDE([Total Gross Profit], [Unique Customers], 0)
+		formatString: \$#,0.00;($#,0.00);\$#,0.00
+		lineageTag: 2b0b5e8c-0e5b-4c73-8a5b-8b33f7a5d009
+
+	measure 'Average Selling Price' =
+			
+			DIVIDE([Total Sales], SUM(sales_analytics[qty]), 0)
+		formatString: \$#,0.00;($#,0.00);\$#,0.00
+		lineageTag: 2b0b5e8c-0e5b-4c73-8a5b-8b33f7a5d001
+
+	measure 'Unique Customers' =
+			
+			DISTINCTCOUNT(sales_analytics[cust_key])
+		formatString: 0
+		lineageTag: 5b3f6f9a-4d55-4c8a-8d2f-5e7e0e7d5f10
+
+	measure 'Average Order Value' = DIVIDE([Total Sales], [Total Orders], 0)
+		lineageTag: b24cd5af-71ea-4762-8bf3-88c510a15d8a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Value
+		formatString: 0
+		lineageTag: 8ce4d142-2d9a-4ee1-872b-408db69888fd
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Value]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Core KPI Measures' = calculated
+		mode: import
+		source = {1}
+
+	annotation PBI_Id = 7bdff7c154664ee4adf0ccaedf73989c
+

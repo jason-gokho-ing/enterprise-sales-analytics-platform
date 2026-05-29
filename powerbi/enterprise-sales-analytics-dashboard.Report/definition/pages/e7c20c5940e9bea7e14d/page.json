@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "e7c20c5940e9bea7e14d",
+  "displayName": "Customer Analysis",
+  "displayOption": "FitToPage",
+  "height": 768,
+  "width": 1366,
+  "pageBinding": {
+    "name": "52ec5a02290680e301e3",
+    "type": "Default",
+    "parameters": []
+  }
+}

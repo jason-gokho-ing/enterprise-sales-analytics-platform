@@ -1,0 +1,14 @@
+relationship 123983f2-d5a7-4ff0-a270-e337d2a00177
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Date.Date
+	toColumn: LocalDateTable_fe1334a1-6e87-4917-8129-b39966a752ec.Date
+
+relationship 1b1d4c3b-f07f-fd07-ea74-f24b7acfc070
+	fromColumn: sales_analytics.order_date
+	toColumn: Date.Date
+
+relationship 415b3b5c-a0d3-4f29-a856-d512969cfa9a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: sales_analytics.birthdate
+	toColumn: LocalDateTable_578bdfff-786b-4ae3-9ff5-6501d7828163.Date
+

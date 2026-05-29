@@ -1,0 +1,24 @@
+model Model
+	culture: en-CA
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-CA
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["sales_analytics"]
+
+annotation PBI_ProTooling = ["DaxQueryView_Desktop","DevMode"]
+
+ref table DateTableTemplate_2032f3f9-c160-4efc-b6f0-1a646d2b0755
+ref table Date
+ref table LocalDateTable_fe1334a1-6e87-4917-8129-b39966a752ec
+ref table sales_analytics
+ref table 'Core KPI Measures'
+ref table 'Time Intelligence'
+ref table LocalDateTable_578bdfff-786b-4ae3-9ff5-6501d7828163
+
+ref cultureInfo en-CA
+

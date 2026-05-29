@@ -1,0 +1,751 @@
+cust_key,street_address,city,province,postal_code,country
+CUST000001,1926 Pine Rd,Charlottetown,PE,V7 S4I,Canada
+CUST000002,2157 Oak Lane,Halifax,NS,R8 P2Y,Canada
+CUST000003,182 Elm Rd,Charlottetown,PE,Q5 I2W,Canada
+CUST000004,9655 Oak Lane,Toronto,ON,P0 U8N,Canada
+CUST000005,541 Pine Lane,Victoria,BC,F8 Q2O,Canada
+CUST000006,2163 Oak St,Red Deer,AB,Z2 I5B,Canada
+CUST000007,7308 Elm Lane,Winnipeg,MB,D0 C3M,Canada
+CUST000008,5195 Pine Ave,Hamilton,ON,I6 G8W,Canada
+CUST000009,6492 Ash Rd,Vancouver,BC,J4 H6X,Canada
+CUST000010,1569 Spruce Ave,Edmonton,AB,P8 L0M,Canada
+CUST000011,2888 Elm Blvd,Vancouver,BC,O5 B0Z,Canada
+CUST000012,2743 Birch Lane,Edmonton,AB,S6 D6T,Canada
+CUST000013,6621 Elm Lane,Victoria,BC,Z8 V5H,Canada
+CUST000014,7589 Willow Lane,Edmonton,AB,J1 O2L,Canada
+CUST000015,5722 Birch Lane,Vancouver,BC,L2 N4C,Canada
+CUST000016,7101 Elm Lane,Toronto,ON,S4 D7C,Canada
+CUST000017,4816 Spruce St,Vancouver,BC,M3 Y8W,Canada
+CUST000018,8560 Elm Ave,Vancouver,BC,S5 O3X,Canada
+CUST000019,1460 Cedar Ave,Red Deer,AB,D8 Z1Z,Canada
+CUST000020,9409 Willow St,St Johns,NL,T2 R0Z,Canada
+CUST000021,2874 Ash Blvd,Calgary,AB,M3 R1U,Canada
+CUST000022,9139 Elm St,Edmonton,AB,F6 X2Z,Canada
+CUST000023,5110 Willow Ave,Red Deer,AB,M4 P1E,Canada
+CUST000024,7208 Cedar Blvd,Burnaby,BC,X3 J3G,Canada
+CUST000025,6715 Cedar Blvd,Edmonton,AB,O2 U6D,Canada
+CUST000026,5788 Ash Lane,Ottawa,ON,K2 Z0A,Canada
+CUST000027,9346 Elm Rd,Surrey,BC,D1 A2X,Canada
+CUST000028,1262 Maple Ave,Regina,SK,H1 U6Y,Canada
+CUST000029,3257 Cedar Lane,Calgary,AB,I0 P6Z,Canada
+CUST000030,7804 Maple Blvd,Halifax,NS,C2 Z1L,Canada
+CUST000031,6188 Birch Blvd,Vancouver,BC,H3 N6V,Canada
+CUST000032,6455 Main Lane,Halifax,NS,N1 X2T,Canada
+CUST000033,2677 Oak Rd,Burnaby,BC,O4 H3B,Canada
+CUST000034,9309 Willow Lane,London,ON,Y2 S3V,Canada
+CUST000035,1215 Willow Ave,Burnaby,BC,V0 B3A,Canada
+CUST000036,428 Main Ave,Charlottetown,PE,Y8 O5F,Canada
+CUST000037,4483 Cedar Lane,Victoria,BC,Q1 Q3Q,Canada
+CUST000038,5675 Elm Blvd,Saskatoon,SK,A4 Z6Q,Canada
+CUST000039,3560 Ash Lane,Calgary,AB,R0 P4O,Canada
+CUST000040,2178 Cedar Rd,Calgary,AB,S5 M4R,Canada
+CUST000041,5463 Maple St,Quebec City,QC,X2 V1A,Canada
+CUST000042,9701 Oak Blvd,St Johns,NL,B7 G2X,Canada
+CUST000043,3538 Main St,Winnipeg,MB,Y3 B7K,Canada
+CUST000044,6675 Birch St,Ottawa,ON,M5 W6P,Canada
+CUST000045,7492 Elm Ave,London,ON,S1 L5K,Canada
+CUST000046,4989 Cedar Blvd,Fredericton,NB,E5 K1L,Canada
+CUST000047,5021 Cedar Ave,Victoria,BC,H6 G2U,Canada
+CUST000048,6634 Spruce Ave,Red Deer,AB,B4 U3R,Canada
+CUST000049,6410 Birch Blvd,Burnaby,BC,E5 D8S,Canada
+CUST000050,4619 Spruce Lane,Charlottetown,PE,T1 Y4G,Canada
+CUST000051,6976 Pine St,Red Deer,AB,H1 L0T,Canada
+CUST000052,7916 Main Blvd,Vancouver,BC,C7 B4Q,Canada
+CUST000053,7716 Birch Rd,Charlottetown,PE,X2 W1U,Canada
+CUST000054,2147 Oak Lane,London,ON,K0 Z8G,Canada
+CUST000055,1687 Cedar St,Toronto,ON,W2 F2L,Canada
+CUST000056,8369 Ash St,Red Deer,AB,B0 B6Z,Canada
+CUST000057,4764 Pine St,Edmonton,AB,A0 C6Q,Canada
+CUST000058,3396 Willow Blvd,Calgary,AB,F8 P1M,Canada
+CUST000059,3410 Oak St,Winnipeg,MB,I6 K8F,Canada
+CUST000060,5403 Cedar Rd,Toronto,ON,V0 I7C,Canada
+CUST000061,3863 Birch St,Calgary,AB,N5 N5W,Canada
+CUST000062,3390 Oak Rd,Ottawa,ON,L3 W8X,Canada
+CUST000063,8290 Elm Lane,Winnipeg,MB,X3 D0N,Canada
+CUST000064,6447 Maple Ave,Edmonton,AB,S7 J4M,Canada
+CUST000065,8504 Cedar Ave,Fredericton,NB,G8 S0I,Canada
+CUST000066,9580 Elm Ave,Victoria,BC,D6 A4Y,Canada
+CUST000067,9798 Birch Lane,Regina,SK,G4 Q3J,Canada
+CUST000068,6663 Pine Lane,London,ON,V1 Z0Z,Canada
+CUST000069,3315 Elm Rd,Montreal,QC,A3 C7G,Canada
+CUST000070,3760 Birch Ave,Burnaby,BC,Y2 V1H,Canada
+CUST000071,8220 Birch Lane,Halifax,NS,H1 H3Y,Canada
+CUST000072,659 Ash Ave,Calgary,AB,B3 N3Y,Canada
+CUST000073,7756 Cedar St,London,ON,Q8 H2A,Canada
+CUST000074,3037 Ash Rd,Red Deer,AB,U3 E6E,Canada
+CUST000075,9843 Birch Rd,Victoria,BC,J4 L3B,Canada
+CUST000076,3765 Pine Blvd,Charlottetown,PE,K2 J3B,Canada
+CUST000077,573 Main Lane,Calgary,AB,T5 O7H,Canada
+CUST000078,6888 Elm Ave,Edmonton,AB,T8 S0Q,Canada
+CUST000079,8564 Elm St,Victoria,BC,D4 D6N,Canada
+CUST000080,4860 Pine Lane,Toronto,ON,I5 N8S,Canada
+CUST000081,3840 Oak Lane,Saskatoon,SK,R0 Q0R,Canada
+CUST000082,8277 Ash Ave,Vancouver,BC,C8 R4Y,Canada
+CUST000083,6049 Maple St,Ottawa,ON,R8 L5H,Canada
+CUST000084,2154 Willow Rd,Fredericton,NB,I7 H2D,Canada
+CUST000085,4333 Birch St,Hamilton,ON,V1 N7L,Canada
+CUST000086,7055 Elm Rd,Burnaby,BC,U8 Z4G,Canada
+CUST000087,7861 Elm Blvd,Montreal,QC,Z8 C5K,Canada
+CUST000088,810 Elm Lane,Fredericton,NB,Y0 U1L,Canada
+CUST000089,4309 Willow Rd,Winnipeg,MB,F7 D6K,Canada
+CUST000090,3934 Pine Lane,Surrey,BC,I5 J3A,Canada
+CUST000091,835 Main Blvd,London,ON,Q1 S0Y,Canada
+CUST000092,22 Pine Lane,Surrey,BC,X4 A6N,Canada
+CUST000093,7888 Maple St,St Johns,NL,P8 M3G,Canada
+CUST000094,9252 Spruce Ave,Winnipeg,MB,K2 O5N,Canada
+CUST000095,1418 Elm St,Red Deer,AB,T1 W0Q,Canada
+CUST000096,4389 Elm Lane,Vancouver,BC,A5 N8N,Canada
+CUST000097,880 Pine Lane,Hamilton,ON,G3 X8G,Canada
+CUST000098,659 Elm Rd,Fredericton,NB,V4 C3V,Canada
+CUST000099,2359 Elm Rd,Winnipeg,MB,D2 P0O,Canada
+CUST000100,424 Oak Ave,Red Deer,AB,I0 B1Z,Canada
+CUST000101,3714 Main Blvd,Ottawa,ON,X8 B2S,Canada
+CUST000102,3799 Maple Blvd,Hamilton,ON,L0 V7U,Canada
+CUST000103,3539 Cedar Ave,Charlottetown,PE,A3 C1H,Canada
+CUST000104,5807 Maple St,Halifax,NS,O6 J8J,Canada
+CUST000105,6256 Maple Rd,Edmonton,AB,D4 D6P,Canada
+CUST000106,5186 Oak Blvd,Hamilton,ON,W7 E0B,Canada
+CUST000107,3511 Birch Ave,Burnaby,BC,X2 B0H,Canada
+CUST000108,2501 Oak Rd,Toronto,ON,U3 V2W,Canada
+CUST000109,248 Maple Lane,Red Deer,AB,W0 X1M,Canada
+CUST000110,8081 Ash Blvd,Charlottetown,PE,Z4 J4P,Canada
+CUST000111,7408 Elm Lane,Halifax,NS,F3 D7J,Canada
+CUST000112,4711 Ash Ave,Charlottetown,PE,E5 E7J,Canada
+CUST000113,9422 Main Rd,St Johns,NL,Y7 B7N,Canada
+CUST000114,7311 Pine Lane,Charlottetown,PE,A4 N2W,Canada
+CUST000115,9588 Pine Ave,Burnaby,BC,Z6 W0E,Canada
+CUST000116,2767 Spruce Lane,Ottawa,ON,N2 R6W,Canada
+CUST000117,1531 Spruce Blvd,Surrey,BC,J8 R8R,Canada
+CUST000118,5699 Cedar Blvd,Charlottetown,PE,T7 I6T,Canada
+CUST000119,4901 Elm Lane,St Johns,NL,G4 U3F,Canada
+CUST000120,1495 Maple Blvd,Calgary,AB,V1 X7Q,Canada
+CUST000121,5533 Main Lane,Edmonton,AB,A0 L3O,Canada
+CUST000122,6405 Elm Ave,St Johns,NL,T3 E6O,Canada
+CUST000123,8037 Pine Blvd,Halifax,NS,C5 U6Y,Canada
+CUST000124,5701 Elm Lane,Toronto,ON,T6 Q0W,Canada
+CUST000125,618 Ash Rd,Edmonton,AB,W1 X6I,Canada
+CUST000126,456 Pine St,Charlottetown,PE,E2 B3W,Canada
+CUST000127,6465 Elm Lane,St Johns,NL,K5 H4X,Canada
+CUST000128,2318 Cedar Blvd,Halifax,NS,Y4 W0O,Canada
+CUST000129,8939 Elm St,Charlottetown,PE,Z3 H5U,Canada
+CUST000130,3050 Willow Blvd,Hamilton,ON,P6 L6P,Canada
+CUST000131,7458 Maple Rd,Ottawa,ON,A4 A2Y,Canada
+CUST000132,4180 Ash Ave,Saskatoon,SK,J5 U2O,Canada
+CUST000133,7526 Elm Rd,Edmonton,AB,E3 V0L,Canada
+CUST000134,6237 Cedar Lane,Halifax,NS,R7 B7F,Canada
+CUST000135,7365 Oak Ave,St Johns,NL,U2 E3V,Canada
+CUST000136,1033 Main Lane,Halifax,NS,W5 V6V,Canada
+CUST000137,1397 Oak Rd,Burnaby,BC,B2 J2B,Canada
+CUST000138,279 Birch Blvd,Charlottetown,PE,E1 H1M,Canada
+CUST000139,8003 Main Ave,Montreal,QC,L1 J8B,Canada
+CUST000140,2834 Main Rd,Winnipeg,MB,Z7 Q1A,Canada
+CUST000141,6489 Willow Blvd,Ottawa,ON,L2 Z5F,Canada
+CUST000142,5391 Main Blvd,Halifax,NS,G5 Q6I,Canada
+CUST000143,9691 Maple St,Halifax,NS,E6 G2L,Canada
+CUST000144,462 Cedar Rd,London,ON,G7 M6M,Canada
+CUST000145,6806 Ash St,Calgary,AB,I4 P0Q,Canada
+CUST000146,1721 Pine St,Victoria,BC,H0 W0K,Canada
+CUST000147,4765 Spruce St,Edmonton,AB,P8 K3B,Canada
+CUST000148,6316 Elm Rd,Winnipeg,MB,E7 H8B,Canada
+CUST000149,3618 Pine Blvd,Charlottetown,PE,G3 V1Y,Canada
+CUST000150,3185 Maple Blvd,London,ON,H7 Q3I,Canada
+CUST000151,6527 Main St,Charlottetown,PE,W7 K3D,Canada
+CUST000152,8320 Spruce Blvd,London,ON,Z4 I2L,Canada
+CUST000153,8328 Birch St,Fredericton,NB,T2 F6J,Canada
+CUST000154,7489 Spruce Lane,Victoria,BC,L7 G5N,Canada
+CUST000155,8878 Oak Ave,St Johns,NL,A6 J3T,Canada
+CUST000156,4365 Pine Ave,Toronto,ON,I5 V0K,Canada
+CUST000157,738 Main Ave,Victoria,BC,U4 I8Y,Canada
+CUST000158,4424 Pine Lane,Regina,SK,B1 Q4E,Canada
+CUST000159,733 Oak Blvd,St Johns,NL,G0 Q6B,Canada
+CUST000160,9988 Main Blvd,Halifax,NS,G7 L6R,Canada
+CUST000161,2726 Cedar Rd,Montreal,QC,P5 M7X,Canada
+CUST000162,1428 Cedar Ave,Saskatoon,SK,H8 A4G,Canada
+CUST000163,6401 Elm St,St Johns,NL,F2 B4G,Canada
+CUST000164,7763 Elm St,Surrey,BC,A5 G1K,Canada
+CUST000165,2390 Elm Lane,Hamilton,ON,I6 C6L,Canada
+CUST000166,4559 Cedar Lane,Burnaby,BC,U7 T3M,Canada
+CUST000167,5285 Maple Blvd,Vancouver,BC,A8 B6W,Canada
+CUST000168,7458 Birch Lane,St Johns,NL,A0 W5Z,Canada
+CUST000169,3512 Oak St,Hamilton,ON,G8 B1C,Canada
+CUST000170,456 Maple St,London,ON,Z3 H3V,Canada
+CUST000171,6172 Cedar Lane,Burnaby,BC,Y3 W7W,Canada
+CUST000172,1488 Oak Rd,Halifax,NS,M4 L7U,Canada
+CUST000173,6111 Ash Rd,Calgary,AB,M5 I0I,Canada
+CUST000174,4852 Birch Blvd,Saskatoon,SK,B1 L6V,Canada
+CUST000175,2953 Ash Rd,Montreal,QC,V8 R2V,Canada
+CUST000176,8348 Willow Ave,Burnaby,BC,Q0 M6E,Canada
+CUST000177,2339 Spruce St,Edmonton,AB,Z2 F3Q,Canada
+CUST000178,6777 Birch Blvd,Saskatoon,SK,M2 Z1I,Canada
+CUST000179,2483 Elm Ave,Surrey,BC,K3 K4C,Canada
+CUST000180,8415 Maple Blvd,Toronto,ON,Y4 H6C,Canada
+CUST000181,4984 Elm Blvd,Toronto,ON,T6 N0S,Canada
+CUST000182,9989 Maple Rd,Victoria,BC,R2 H8E,Canada
+CUST000183,2617 Maple Lane,Victoria,BC,Y6 I2I,Canada
+CUST000184,9320 Cedar Ave,Surrey,BC,B6 S7E,Canada
+CUST000185,4879 Spruce Lane,Edmonton,AB,O6 Z5A,Canada
+CUST000186,8158 Ash St,Halifax,NS,P6 S3Q,Canada
+CUST000187,6060 Main Rd,Toronto,ON,S5 C7K,Canada
+CUST000188,1663 Ash Rd,St Johns,NL,R4 V4X,Canada
+CUST000189,9459 Main Blvd,Burnaby,BC,L3 I1Q,Canada
+CUST000190,6810 Birch Ave,Victoria,BC,D1 U0Y,Canada
+CUST000191,8174 Elm Rd,Surrey,BC,I3 V0R,Canada
+CUST000192,6893 Main Blvd,Victoria,BC,K8 A7U,Canada
+CUST000193,4750 Willow Ave,Halifax,NS,F5 O7U,Canada
+CUST000194,3076 Main Lane,Charlottetown,PE,J5 T7Y,Canada
+CUST000195,5044 Main Blvd,Toronto,ON,T3 X7U,Canada
+CUST000196,1301 Birch St,Regina,SK,U8 I7A,Canada
+CUST000197,5041 Spruce St,Vancouver,BC,R1 Y1U,Canada
+CUST000198,8407 Maple Blvd,Edmonton,AB,S8 X8Z,Canada
+CUST000199,3860 Spruce St,Toronto,ON,C0 L1L,Canada
+CUST000200,1940 Main Lane,Winnipeg,MB,M2 A6Y,Canada
+CUST000201,1231 Cedar Rd,Toronto,ON,T0 Y3G,Canada
+CUST000202,4687 Cedar Ave,Toronto,ON,W3 C5R,Canada
+CUST000203,8424 Willow St,Red Deer,AB,U5 F6W,Canada
+CUST000204,8645 Elm Rd,Halifax,NS,X3 W0J,Canada
+CUST000205,7471 Cedar St,Charlottetown,PE,M1 Y6F,Canada
+CUST000206,8422 Maple Ave,Victoria,BC,A2 V6Z,Canada
+CUST000207,977 Maple Blvd,Quebec City,QC,A3 M6G,Canada
+CUST000208,9435 Pine Lane,Ottawa,ON,Z1 A3G,Canada
+CUST000209,5035 Spruce Rd,Victoria,BC,Z2 A2Z,Canada
+CUST000210,9586 Birch Lane,Ottawa,ON,J5 F5O,Canada
+CUST000211,2197 Maple Blvd,Edmonton,AB,U5 U0G,Canada
+CUST000212,761 Elm Ave,Hamilton,ON,A1 O2Q,Canada
+CUST000213,3205 Oak St,Hamilton,ON,J1 J7N,Canada
+CUST000214,7813 Maple Lane,Charlottetown,PE,W4 L3G,Canada
+CUST000215,9940 Pine Blvd,Edmonton,AB,M8 U4W,Canada
+CUST000216,6426 Cedar Rd,Winnipeg,MB,U1 M2H,Canada
+CUST000217,1433 Elm Rd,London,ON,V6 L8W,Canada
+CUST000218,957 Spruce Ave,Vancouver,BC,B8 B0V,Canada
+CUST000219,5513 Main Rd,Red Deer,AB,E2 E8H,Canada
+CUST000220,4301 Cedar St,Charlottetown,PE,S4 G7B,Canada
+CUST000221,3240 Oak Ave,Calgary,AB,K5 J1P,Canada
+CUST000222,8787 Willow Ave,St Johns,NL,F4 A7A,Canada
+CUST000223,4631 Oak St,Fredericton,NB,G2 L7G,Canada
+CUST000224,8571 Elm Lane,Hamilton,ON,Y6 C4K,Canada
+CUST000225,1109 Spruce Rd,Edmonton,AB,Y5 A1L,Canada
+CUST000226,9893 Cedar Rd,St Johns,NL,N1 B3G,Canada
+CUST000227,3616 Main Lane,Edmonton,AB,V6 D3B,Canada
+CUST000228,3334 Pine Lane,Quebec City,QC,Q8 N1V,Canada
+CUST000229,6879 Ash St,Victoria,BC,V5 N4H,Canada
+CUST000230,288 Main St,Edmonton,AB,E5 Y8J,Canada
+CUST000231,131 Willow Lane,Red Deer,AB,Z6 M7Y,Canada
+CUST000232,6144 Main Lane,Burnaby,BC,N2 P6F,Canada
+CUST000233,9210 Main Ave,St Johns,NL,B3 X0X,Canada
+CUST000234,6149 Willow Blvd,Ottawa,ON,O5 G7O,Canada
+CUST000235,813 Maple St,Vancouver,BC,T6 K6N,Canada
+CUST000236,4420 Main Lane,Ottawa,ON,B7 E8I,Canada
+CUST000237,6185 Cedar Lane,Calgary,AB,A8 H5U,Canada
+CUST000238,1851 Spruce Blvd,Fredericton,NB,F5 K2T,Canada
+CUST000239,4210 Willow St,St Johns,NL,V7 Z2O,Canada
+CUST000240,9904 Elm Lane,Montreal,QC,W1 P3F,Canada
+CUST000241,4063 Willow Rd,Burnaby,BC,D7 Z5Z,Canada
+CUST000242,2152 Birch St,Calgary,AB,S4 P0I,Canada
+CUST000243,4445 Willow Blvd,Edmonton,AB,H7 T3E,Canada
+CUST000244,5073 Main Ave,Charlottetown,PE,Z6 Y8D,Canada
+CUST000245,2547 Oak St,Red Deer,AB,U0 U8Y,Canada
+CUST000246,2798 Birch Rd,Winnipeg,MB,G5 G5U,Canada
+CUST000247,2413 Maple Ave,Fredericton,NB,M0 D6T,Canada
+CUST000248,6601 Cedar Rd,Victoria,BC,X1 G5W,Canada
+CUST000249,6234 Main Ave,Calgary,AB,B5 R4S,Canada
+CUST000250,2898 Spruce Blvd,Ottawa,ON,C2 Z6K,Canada
+CUST000251,7885 Maple St,Hamilton,ON,A2 J2T,Canada
+CUST000252,4281 Maple Blvd,Surrey,BC,D3 U3R,Canada
+CUST000253,271 Maple Ave,Halifax,NS,E2 C8O,Canada
+CUST000254,260 Willow St,Surrey,BC,T3 Z6C,Canada
+CUST000255,851 Main Rd,Edmonton,AB,B7 K3U,Canada
+CUST000256,2327 Cedar Blvd,Toronto,ON,V1 J7P,Canada
+CUST000257,2004 Cedar Ave,Ottawa,ON,N6 P0D,Canada
+CUST000258,7455 Birch Ave,Quebec City,QC,K0 E3G,Canada
+CUST000259,2351 Cedar St,Ottawa,ON,X6 L1S,Canada
+CUST000260,3463 Elm St,Charlottetown,PE,X4 V6X,Canada
+CUST000261,377 Cedar Blvd,Ottawa,ON,F2 K6H,Canada
+CUST000262,7381 Cedar Lane,Halifax,NS,E2 V0O,Canada
+CUST000263,6037 Oak Lane,Toronto,ON,T3 F6Y,Canada
+CUST000264,221 Ash Lane,Ottawa,ON,N8 N2J,Canada
+CUST000265,2467 Spruce Rd,Edmonton,AB,Z3 K7Q,Canada
+CUST000266,5631 Oak St,Regina,SK,Y6 C0B,Canada
+CUST000267,2420 Ash Ave,Montreal,QC,E0 P0G,Canada
+CUST000268,8974 Elm Ave,Burnaby,BC,K5 V7R,Canada
+CUST000269,4935 Birch Lane,Toronto,ON,Y2 E0F,Canada
+CUST000270,3482 Elm Ave,Charlottetown,PE,P3 I7D,Canada
+CUST000271,1566 Main Ave,Vancouver,BC,U6 N3A,Canada
+CUST000272,2575 Ash Lane,London,ON,L2 Q1F,Canada
+CUST000273,3887 Pine Blvd,Winnipeg,MB,F6 A4M,Canada
+CUST000274,4122 Main Blvd,Calgary,AB,W2 K5T,Canada
+CUST000275,2736 Birch Ave,Red Deer,AB,A6 O7X,Canada
+CUST000276,5447 Elm Blvd,St Johns,NL,Z6 L0V,Canada
+CUST000277,6204 Elm Lane,Ottawa,ON,F0 B3E,Canada
+CUST000278,3718 Pine Ave,Edmonton,AB,R7 G0O,Canada
+CUST000279,5362 Ash Rd,Vancouver,BC,D0 S4C,Canada
+CUST000280,257 Elm Blvd,Charlottetown,PE,E4 C1K,Canada
+CUST000281,3038 Cedar Ave,Regina,SK,S0 H1P,Canada
+CUST000282,9940 Main Ave,Victoria,BC,S5 G7H,Canada
+CUST000283,5675 Maple Ave,Victoria,BC,C2 D3P,Canada
+CUST000284,3491 Elm Blvd,Quebec City,QC,O0 I6A,Canada
+CUST000285,1904 Elm Blvd,Burnaby,BC,I7 U1S,Canada
+CUST000286,1719 Willow Ave,Burnaby,BC,B0 Y3Z,Canada
+CUST000287,5004 Spruce St,Burnaby,BC,M5 G5R,Canada
+CUST000288,5254 Cedar Lane,Toronto,ON,W4 Z4L,Canada
+CUST000289,3677 Elm Lane,Burnaby,BC,R2 Z4N,Canada
+CUST000290,6830 Pine Rd,London,ON,S5 K3N,Canada
+CUST000291,134 Maple Blvd,Surrey,BC,P4 V3R,Canada
+CUST000292,7552 Pine St,Toronto,ON,H2 K3D,Canada
+CUST000293,2147 Main Blvd,St Johns,NL,X1 S1S,Canada
+CUST000294,2666 Maple St,Charlottetown,PE,J8 K8H,Canada
+CUST000295,8933 Ash St,Victoria,BC,S0 K3L,Canada
+CUST000296,380 Birch Rd,Vancouver,BC,P0 J6Y,Canada
+CUST000297,7900 Oak Blvd,Red Deer,AB,W8 M7I,Canada
+CUST000298,4736 Cedar Rd,Saskatoon,SK,N8 R1S,Canada
+CUST000299,7122 Elm Ave,London,ON,A6 D1W,Canada
+CUST000300,7948 Ash Lane,Toronto,ON,O6 E1F,Canada
+CUST000301,5932 Ash Rd,Fredericton,NB,D3 Y4R,Canada
+CUST000302,8905 Ash St,Red Deer,AB,T5 M5T,Canada
+CUST000303,8847 Birch Blvd,St Johns,NL,V8 V8K,Canada
+CUST000304,749 Elm Rd,Fredericton,NB,P8 O4X,Canada
+CUST000305,9776 Elm Ave,Quebec City,QC,X3 L3Z,Canada
+CUST000306,138 Spruce St,St Johns,NL,D4 X1F,Canada
+CUST000307,7346 Main Lane,Saskatoon,SK,X3 C2H,Canada
+CUST000308,6643 Ash Ave,Toronto,ON,P6 A4T,Canada
+CUST000309,1631 Elm Lane,Vancouver,BC,W5 H4U,Canada
+CUST000310,1511 Maple Blvd,Ottawa,ON,S4 Z1K,Canada
+CUST000311,597 Elm St,Surrey,BC,U5 G4R,Canada
+CUST000312,2962 Maple St,St Johns,NL,D7 H4D,Canada
+CUST000313,808 Birch Lane,St Johns,NL,U0 Z3I,Canada
+CUST000314,8409 Spruce St,Calgary,AB,R8 B8P,Canada
+CUST000315,7813 Elm Ave,Toronto,ON,Z5 J6M,Canada
+CUST000316,4370 Ash Blvd,Winnipeg,MB,X7 N3R,Canada
+CUST000317,1822 Maple St,Quebec City,QC,F8 Y7Q,Canada
+CUST000318,9994 Oak Rd,Victoria,BC,Z8 B5U,Canada
+CUST000319,4769 Oak Blvd,Winnipeg,MB,V5 T7A,Canada
+CUST000320,1667 Oak Rd,Burnaby,BC,D1 F0I,Canada
+CUST000321,4866 Main St,Burnaby,BC,F0 K8T,Canada
+CUST000322,2132 Birch St,Ottawa,ON,Q8 K8G,Canada
+CUST000323,6083 Pine Ave,St Johns,NL,R8 Z1J,Canada
+CUST000324,5214 Maple Lane,Burnaby,BC,N6 M4L,Canada
+CUST000325,9688 Elm Lane,Surrey,BC,C1 P7A,Canada
+CUST000326,9508 Cedar Blvd,Vancouver,BC,F7 J6E,Canada
+CUST000327,3799 Oak Rd,Vancouver,BC,B0 T3D,Canada
+CUST000328,5448 Spruce Rd,Regina,SK,G6 V7L,Canada
+CUST000329,9737 Ash Rd,Quebec City,QC,Y6 I6B,Canada
+CUST000330,9385 Oak Blvd,Ottawa,ON,S0 C4S,Canada
+CUST000331,1642 Main Blvd,Regina,SK,X0 N2J,Canada
+CUST000332,8692 Cedar St,Burnaby,BC,B1 X3I,Canada
+CUST000333,711 Spruce Ave,Calgary,AB,N0 S4F,Canada
+CUST000334,5756 Spruce Rd,Surrey,BC,F4 M8M,Canada
+CUST000335,9406 Willow Rd,Winnipeg,MB,F8 S5W,Canada
+CUST000336,347 Birch St,Surrey,BC,T0 G8S,Canada
+CUST000337,602 Maple Lane,Fredericton,NB,B4 N4O,Canada
+CUST000338,449 Maple Lane,Fredericton,NB,W8 D0K,Canada
+CUST000339,2038 Oak Rd,Calgary,AB,T5 C5K,Canada
+CUST000340,5340 Willow Ave,Victoria,BC,T7 B2D,Canada
+CUST000341,4423 Willow Lane,Toronto,ON,Q7 I3U,Canada
+CUST000342,1800 Elm Ave,St Johns,NL,Z2 T6Z,Canada
+CUST000343,6956 Birch Blvd,Charlottetown,PE,O8 J4H,Canada
+CUST000344,3352 Willow Ave,Edmonton,AB,W5 Y5B,Canada
+CUST000345,9151 Elm Lane,Charlottetown,PE,M7 Z4G,Canada
+CUST000346,3523 Birch St,Ottawa,ON,D0 D4S,Canada
+CUST000347,5031 Pine Blvd,Toronto,ON,T7 G2C,Canada
+CUST000348,1756 Willow Lane,Vancouver,BC,E2 M1Y,Canada
+CUST000349,9543 Elm Ave,Charlottetown,PE,P8 P2T,Canada
+CUST000350,2803 Willow Lane,Charlottetown,PE,H8 C5I,Canada
+CUST000351,4835 Cedar Rd,Regina,SK,K6 D4H,Canada
+CUST000352,5959 Birch Blvd,Hamilton,ON,A5 P8K,Canada
+CUST000353,9143 Maple Ave,Calgary,AB,B2 Z0L,Canada
+CUST000354,7661 Birch Blvd,Charlottetown,PE,H8 G8W,Canada
+CUST000355,4245 Maple Ave,Victoria,BC,L2 U7H,Canada
+CUST000356,3304 Oak Lane,Surrey,BC,N1 Z2X,Canada
+CUST000357,1821 Willow St,Vancouver,BC,F5 F6X,Canada
+CUST000358,9004 Pine Blvd,Red Deer,AB,X8 U5V,Canada
+CUST000359,5208 Main Ave,Ottawa,ON,P8 R4M,Canada
+CUST000360,3641 Main Blvd,St Johns,NL,S4 N3Z,Canada
+CUST000361,4365 Birch Rd,Ottawa,ON,T1 H4V,Canada
+CUST000362,5215 Ash St,Toronto,ON,S0 V4U,Canada
+CUST000363,3515 Birch Ave,Vancouver,BC,R7 S6X,Canada
+CUST000364,1464 Cedar St,Winnipeg,MB,U1 Y6G,Canada
+CUST000365,6861 Maple Rd,Calgary,AB,S6 A5O,Canada
+CUST000366,5508 Elm Blvd,Hamilton,ON,B2 A2U,Canada
+CUST000367,2867 Willow Lane,Ottawa,ON,O2 J3I,Canada
+CUST000368,8906 Willow St,Red Deer,AB,V4 U0T,Canada
+CUST000369,8347 Oak Rd,Fredericton,NB,B1 L0F,Canada
+CUST000370,1490 Pine Lane,Halifax,NS,H7 N0O,Canada
+CUST000371,3129 Ash St,London,ON,P7 C5W,Canada
+CUST000372,3389 Oak Lane,Edmonton,AB,S6 Q2K,Canada
+CUST000373,8079 Pine Lane,Edmonton,AB,B8 L8A,Canada
+CUST000374,8601 Maple Lane,Saskatoon,SK,B7 U3Z,Canada
+CUST000375,354 Spruce Lane,St Johns,NL,R6 R1D,Canada
+CUST000376,211 Ash Lane,Burnaby,BC,R6 J2H,Canada
+CUST000377,5366 Maple Lane,Charlottetown,PE,Q4 O1X,Canada
+CUST000378,4936 Ash Lane,London,ON,A1 C8S,Canada
+CUST000379,6464 Main Rd,Red Deer,AB,R0 L1R,Canada
+CUST000380,9728 Oak St,Charlottetown,PE,X3 N5T,Canada
+CUST000381,8436 Spruce Blvd,Fredericton,NB,H3 E2P,Canada
+CUST000382,9305 Ash Rd,Montreal,QC,V6 E5K,Canada
+CUST000383,6597 Pine Lane,Hamilton,ON,F7 G7D,Canada
+CUST000384,2229 Ash Ave,Victoria,BC,R4 P0V,Canada
+CUST000385,5942 Spruce Ave,Ottawa,ON,B1 N8Z,Canada
+CUST000386,596 Willow Rd,Edmonton,AB,X4 W6W,Canada
+CUST000387,2542 Cedar Rd,Charlottetown,PE,M8 J5X,Canada
+CUST000388,3496 Ash Blvd,Winnipeg,MB,F0 V1E,Canada
+CUST000389,782 Cedar Rd,Halifax,NS,G0 Z5H,Canada
+CUST000390,3304 Cedar Ave,Hamilton,ON,K5 W2E,Canada
+CUST000391,6125 Pine St,St Johns,NL,K0 C1J,Canada
+CUST000392,3608 Main Rd,St Johns,NL,U1 F3P,Canada
+CUST000393,957 Maple Lane,Fredericton,NB,J3 X4E,Canada
+CUST000394,1825 Main Rd,Red Deer,AB,V4 B8F,Canada
+CUST000395,1926 Birch Ave,St Johns,NL,M4 T6P,Canada
+CUST000396,9557 Spruce Blvd,Hamilton,ON,J5 S6Q,Canada
+CUST000397,2165 Main Lane,Calgary,AB,S2 J7R,Canada
+CUST000398,2890 Birch St,Red Deer,AB,P4 F8R,Canada
+CUST000399,1032 Cedar Ave,Winnipeg,MB,W2 P7C,Canada
+CUST000400,756 Willow Ave,London,ON,V8 D7C,Canada
+CUST000401,837 Pine Rd,Surrey,BC,J1 F7D,Canada
+CUST000402,6171 Elm Rd,Charlottetown,PE,V3 C1D,Canada
+CUST000403,5543 Willow Blvd,Ottawa,ON,J4 O4T,Canada
+CUST000404,7831 Main Blvd,St Johns,NL,L0 S0E,Canada
+CUST000405,3607 Cedar St,Charlottetown,PE,I1 G6D,Canada
+CUST000406,5775 Pine Lane,Quebec City,QC,Z0 G8X,Canada
+CUST000407,4496 Oak Blvd,Hamilton,ON,V2 W3A,Canada
+CUST000408,8084 Ash Ave,Red Deer,AB,P3 R3X,Canada
+CUST000409,9431 Willow Blvd,Winnipeg,MB,N4 F4E,Canada
+CUST000410,5002 Ash St,Halifax,NS,M5 N7W,Canada
+CUST000411,7962 Willow Lane,Halifax,NS,G3 X8F,Canada
+CUST000412,4137 Oak Ave,Fredericton,NB,F8 H7W,Canada
+CUST000413,9054 Main Rd,Toronto,ON,J5 E6V,Canada
+CUST000414,9782 Maple Blvd,Surrey,BC,M6 O3A,Canada
+CUST000415,8614 Elm St,Toronto,ON,U7 L4N,Canada
+CUST000416,2809 Main Ave,Calgary,AB,T2 Y6N,Canada
+CUST000417,2031 Pine St,London,ON,A0 X0H,Canada
+CUST000418,3612 Spruce Rd,Ottawa,ON,V1 W0E,Canada
+CUST000419,9509 Spruce Ave,Victoria,BC,W1 B4F,Canada
+CUST000420,5487 Elm St,Vancouver,BC,R8 V7Z,Canada
+CUST000421,7489 Pine St,London,ON,I6 D2B,Canada
+CUST000422,4041 Cedar Lane,Calgary,AB,X1 K2A,Canada
+CUST000423,920 Ash St,Surrey,BC,C6 N2E,Canada
+CUST000424,5780 Elm Blvd,Victoria,BC,H8 E6W,Canada
+CUST000425,9968 Ash Lane,Red Deer,AB,H6 A4H,Canada
+CUST000426,9334 Cedar Blvd,Halifax,NS,C8 Q4W,Canada
+CUST000427,8572 Maple Rd,Toronto,ON,E2 W1O,Canada
+CUST000428,6734 Cedar Ave,Fredericton,NB,I0 P7F,Canada
+CUST000429,8210 Spruce Blvd,Red Deer,AB,H5 I8F,Canada
+CUST000430,4130 Oak Rd,Surrey,BC,I0 P4H,Canada
+CUST000431,1685 Elm Lane,Vancouver,BC,C0 L5N,Canada
+CUST000432,3738 Spruce St,St Johns,NL,P7 S4Y,Canada
+CUST000433,9310 Birch Blvd,Saskatoon,SK,Z5 N2Z,Canada
+CUST000434,2557 Maple Blvd,Red Deer,AB,E3 H6P,Canada
+CUST000435,7725 Elm Blvd,Toronto,ON,T0 R4P,Canada
+CUST000436,2552 Ash Ave,Burnaby,BC,K7 J6Y,Canada
+CUST000437,6764 Spruce Ave,Montreal,QC,Z8 I8O,Canada
+CUST000438,9644 Birch Lane,Calgary,AB,H1 I3S,Canada
+CUST000439,6904 Pine St,Hamilton,ON,V2 U1D,Canada
+CUST000440,8815 Birch St,Winnipeg,MB,A4 L7H,Canada
+CUST000441,4918 Ash Blvd,Winnipeg,MB,E3 U3P,Canada
+CUST000442,441 Oak Ave,Surrey,BC,N4 N0D,Canada
+CUST000443,3635 Elm Blvd,Quebec City,QC,L8 D3P,Canada
+CUST000444,4140 Ash Lane,Hamilton,ON,C1 R7D,Canada
+CUST000445,1147 Oak Lane,Ottawa,ON,H4 K2B,Canada
+CUST000446,2242 Elm Rd,Charlottetown,PE,N1 P5L,Canada
+CUST000447,3147 Spruce Rd,Edmonton,AB,G6 E5H,Canada
+CUST000448,5529 Willow Blvd,Halifax,NS,B1 X3H,Canada
+CUST000449,6018 Cedar Rd,Victoria,BC,U3 F6V,Canada
+CUST000450,3713 Elm Ave,Regina,SK,B4 J7M,Canada
+CUST000451,3536 Pine Lane,Winnipeg,MB,P6 H1H,Canada
+CUST000452,3112 Spruce Ave,Hamilton,ON,R2 B3U,Canada
+CUST000453,4097 Oak Ave,London,ON,Y8 P3W,Canada
+CUST000454,4498 Cedar Blvd,Burnaby,BC,L6 R5J,Canada
+CUST000455,2077 Main Rd,Charlottetown,PE,U8 K8Y,Canada
+CUST000456,8694 Pine Lane,Ottawa,ON,I1 D2W,Canada
+CUST000457,6968 Ash St,Toronto,ON,Y1 Q0R,Canada
+CUST000458,3862 Cedar Lane,Winnipeg,MB,N4 V4M,Canada
+CUST000459,9954 Birch Lane,Halifax,NS,T5 B0X,Canada
+CUST000460,5371 Willow St,St Johns,NL,M3 Z3F,Canada
+CUST000461,458 Maple St,Charlottetown,PE,V7 T7W,Canada
+CUST000462,796 Maple Lane,Fredericton,NB,R7 T1H,Canada
+CUST000463,7716 Oak Ave,London,ON,W8 O7B,Canada
+CUST000464,9002 Birch Rd,Red Deer,AB,Q8 U6D,Canada
+CUST000465,8672 Spruce Ave,Winnipeg,MB,U3 N3Z,Canada
+CUST000466,6387 Ash Lane,Fredericton,NB,R7 P0O,Canada
+CUST000467,863 Main Lane,London,ON,W8 S7L,Canada
+CUST000468,7587 Ash Ave,Edmonton,AB,Z5 L2Z,Canada
+CUST000469,736 Maple Ave,Toronto,ON,Y1 H4Z,Canada
+CUST000470,2708 Ash Blvd,Halifax,NS,M7 A2G,Canada
+CUST000471,2639 Pine Ave,Burnaby,BC,Y1 G7A,Canada
+CUST000472,5059 Ash Lane,London,ON,W5 O0A,Canada
+CUST000473,5280 Maple Ave,Calgary,AB,H3 J7X,Canada
+CUST000474,3684 Pine Blvd,Edmonton,AB,S3 B6O,Canada
+CUST000475,22 Cedar Ave,Hamilton,ON,X7 N8S,Canada
+CUST000476,5170 Willow St,Halifax,NS,D8 U6H,Canada
+CUST000477,7241 Birch St,Fredericton,NB,Q1 N3I,Canada
+CUST000478,5955 Pine Lane,London,ON,H0 X8E,Canada
+CUST000479,7830 Oak Rd,Calgary,AB,U5 S8N,Canada
+CUST000480,1916 Cedar St,Edmonton,AB,R7 Q4B,Canada
+CUST000481,1137 Elm Lane,Ottawa,ON,M5 G4Z,Canada
+CUST000482,9960 Maple St,Red Deer,AB,Y1 M2H,Canada
+CUST000483,3823 Main Blvd,Edmonton,AB,R8 S5L,Canada
+CUST000484,7178 Cedar Lane,Ottawa,ON,A7 W7G,Canada
+CUST000485,927 Willow Rd,Calgary,AB,D1 Q4O,Canada
+CUST000486,4531 Ash Blvd,Red Deer,AB,I0 D0I,Canada
+CUST000487,1216 Oak Rd,Saskatoon,SK,U2 Z7U,Canada
+CUST000488,5087 Ash Lane,Victoria,BC,J3 O6L,Canada
+CUST000489,7957 Willow Rd,Surrey,BC,L7 R1P,Canada
+CUST000490,8580 Pine Blvd,Red Deer,AB,N0 V2F,Canada
+CUST000491,5658 Oak Lane,Regina,SK,X4 C2J,Canada
+CUST000492,7256 Pine Ave,Charlottetown,PE,N1 R0S,Canada
+CUST000493,1111 Main Blvd,London,ON,Q1 W0V,Canada
+CUST000494,234 Birch Ave,Edmonton,AB,F7 V3M,Canada
+CUST000495,5774 Elm Rd,Regina,SK,D2 B2L,Canada
+CUST000496,5241 Birch Lane,Victoria,BC,U4 E4T,Canada
+CUST000497,6779 Main Rd,Surrey,BC,T8 X3B,Canada
+CUST000498,6501 Oak Lane,London,ON,S3 M2X,Canada
+CUST000499,945 Elm Ave,Edmonton,AB,N2 D1Q,Canada
+CUST000500,5999 Spruce Lane,Edmonton,AB,B6 G5T,Canada
+CUST000501,1524 Main Rd,London,ON,U5 J5L,Canada
+CUST000502,1968 Ash St,Toronto,ON,G1 T3G,Canada
+CUST000503,8588 Maple Lane,Regina,SK,G5 U1L,Canada
+CUST000504,5575 Main Lane,Edmonton,AB,Q1 M1L,Canada
+CUST000505,3151 Ash St,Calgary,AB,O6 W1P,Canada
+CUST000506,8039 Maple St,St Johns,NL,J6 G2H,Canada
+CUST000507,1979 Elm Rd,Toronto,ON,I8 J6V,Canada
+CUST000508,8207 Spruce Blvd,Calgary,AB,V4 J5N,Canada
+CUST000509,1297 Oak Ave,Hamilton,ON,I7 O1V,Canada
+CUST000510,7448 Elm St,Winnipeg,MB,M8 M5G,Canada
+CUST000511,4187 Oak Blvd,Edmonton,AB,P3 P7Y,Canada
+CUST000512,4996 Main Rd,Saskatoon,SK,B1 D6X,Canada
+CUST000513,8308 Pine Ave,Charlottetown,PE,A3 Z2V,Canada
+CUST000514,7381 Oak Blvd,Montreal,QC,I3 U1R,Canada
+CUST000515,5973 Main Lane,Calgary,AB,U5 X4U,Canada
+CUST000516,7424 Cedar St,Saskatoon,SK,G0 W2S,Canada
+CUST000517,1217 Main Rd,Surrey,BC,K3 O4H,Canada
+CUST000518,6189 Pine Ave,Hamilton,ON,F7 I1H,Canada
+CUST000519,6873 Maple Blvd,Victoria,BC,O1 Z5C,Canada
+CUST000520,7842 Elm Lane,Toronto,ON,U7 T2C,Canada
+CUST000521,8101 Maple Lane,Saskatoon,SK,M4 B8V,Canada
+CUST000522,69 Cedar Ave,Edmonton,AB,A3 P6I,Canada
+CUST000523,2124 Elm St,Calgary,AB,E6 S2Q,Canada
+CUST000524,6016 Main Lane,Surrey,BC,I2 P2A,Canada
+CUST000525,9487 Birch Ave,Ottawa,ON,C0 F4D,Canada
+CUST000526,2006 Birch Ave,Red Deer,AB,C3 O8B,Canada
+CUST000527,7472 Cedar St,Hamilton,ON,F5 H8D,Canada
+CUST000528,8546 Birch Ave,Hamilton,ON,H7 O8M,Canada
+CUST000529,4753 Birch Rd,Ottawa,ON,T1 Q7V,Canada
+CUST000530,2521 Birch Rd,Winnipeg,MB,B1 N3E,Canada
+CUST000531,340 Spruce Ave,Quebec City,QC,C3 R0Z,Canada
+CUST000532,5289 Oak Rd,Victoria,BC,D6 U8Q,Canada
+CUST000533,3513 Elm St,Charlottetown,PE,S8 H0I,Canada
+CUST000534,5253 Cedar Ave,Saskatoon,SK,V2 X2W,Canada
+CUST000535,1323 Oak Lane,Surrey,BC,G6 Z4D,Canada
+CUST000536,2960 Oak Ave,Vancouver,BC,Q4 J7Y,Canada
+CUST000537,1766 Birch Rd,Regina,SK,R2 F5H,Canada
+CUST000538,8747 Ash Blvd,Montreal,QC,T6 J8H,Canada
+CUST000539,1393 Maple St,Regina,SK,R4 J0M,Canada
+CUST000540,7915 Oak St,Red Deer,AB,Q5 F7Y,Canada
+CUST000541,8344 Main Lane,Victoria,BC,L3 P1P,Canada
+CUST000542,9030 Spruce Ave,Winnipeg,MB,V8 A4B,Canada
+CUST000543,5762 Main St,Saskatoon,SK,Y0 L5Q,Canada
+CUST000544,6276 Ash St,Vancouver,BC,R0 T4D,Canada
+CUST000545,4060 Willow Lane,Saskatoon,SK,O5 D0X,Canada
+CUST000546,4229 Cedar St,Victoria,BC,T4 D8V,Canada
+CUST000547,319 Cedar Rd,Quebec City,QC,Q4 Y4L,Canada
+CUST000548,2108 Oak Blvd,Vancouver,BC,W8 I0M,Canada
+CUST000549,8452 Spruce Ave,Fredericton,NB,F5 R6E,Canada
+CUST000550,411 Pine St,Vancouver,BC,C8 Y1H,Canada
+CUST000551,2587 Main Ave,Edmonton,AB,W3 E1P,Canada
+CUST000552,6633 Main Lane,Halifax,NS,M6 Z7C,Canada
+CUST000553,1727 Ash Blvd,Surrey,BC,G2 U6F,Canada
+CUST000554,564 Pine Blvd,Ottawa,ON,H0 O2N,Canada
+CUST000555,1037 Pine Ave,St Johns,NL,G1 F0R,Canada
+CUST000556,4688 Spruce St,Burnaby,BC,M3 T2R,Canada
+CUST000557,4487 Oak Blvd,Ottawa,ON,T0 S2J,Canada
+CUST000558,50 Ash Lane,Surrey,BC,H4 H2J,Canada
+CUST000559,833 Elm Blvd,Edmonton,AB,C7 M8E,Canada
+CUST000560,7367 Main Ave,Red Deer,AB,V3 S2K,Canada
+CUST000561,8996 Oak Ave,Red Deer,AB,S0 H3P,Canada
+CUST000562,1544 Ash St,Red Deer,AB,N0 J2J,Canada
+CUST000563,5662 Ash Ave,Toronto,ON,J4 X2R,Canada
+CUST000564,8801 Main St,Burnaby,BC,V0 K8F,Canada
+CUST000565,8544 Oak Blvd,Burnaby,BC,R7 S1R,Canada
+CUST000566,4139 Willow Lane,Ottawa,ON,S5 G6S,Canada
+CUST000567,215 Main Blvd,Red Deer,AB,V2 M3N,Canada
+CUST000568,4701 Oak Blvd,St Johns,NL,Q8 P5L,Canada
+CUST000569,8979 Cedar Blvd,Victoria,BC,Y4 H4O,Canada
+CUST000570,6586 Oak St,Toronto,ON,H1 X2O,Canada
+CUST000571,6788 Oak Ave,Halifax,NS,L0 L5Z,Canada
+CUST000572,2186 Oak Blvd,Red Deer,AB,Z3 A3N,Canada
+CUST000573,8394 Main Ave,Burnaby,BC,C1 K1K,Canada
+CUST000574,6440 Cedar St,Winnipeg,MB,C4 O1D,Canada
+CUST000575,4097 Birch Ave,Burnaby,BC,S5 S1H,Canada
+CUST000576,2726 Ash Ave,London,ON,O8 J3D,Canada
+CUST000577,1133 Maple Rd,Charlottetown,PE,K1 F7M,Canada
+CUST000578,1942 Spruce Rd,Charlottetown,PE,J1 D6W,Canada
+CUST000579,6311 Spruce St,Saskatoon,SK,Q1 M0Z,Canada
+CUST000580,7499 Elm St,Red Deer,AB,F6 L1A,Canada
+CUST000581,7019 Cedar Lane,Winnipeg,MB,M0 Z0S,Canada
+CUST000582,4675 Birch St,Fredericton,NB,X8 Y1P,Canada
+CUST000583,4059 Willow St,Burnaby,BC,L3 C5I,Canada
+CUST000584,1651 Cedar Rd,Toronto,ON,X0 H1H,Canada
+CUST000585,7533 Ash Blvd,Edmonton,AB,V0 F0W,Canada
+CUST000586,1990 Main Lane,Red Deer,AB,O7 B4M,Canada
+CUST000587,1286 Spruce Lane,St Johns,NL,D8 A2C,Canada
+CUST000588,5080 Spruce Rd,Edmonton,AB,M0 B3L,Canada
+CUST000589,6215 Cedar Ave,Winnipeg,MB,R2 I6X,Canada
+CUST000590,385 Willow Rd,Hamilton,ON,T8 M4O,Canada
+CUST000591,2013 Elm St,Calgary,AB,X5 X4K,Canada
+CUST000592,1070 Birch St,Quebec City,QC,Q3 C2B,Canada
+CUST000593,5311 Maple Ave,Regina,SK,S2 W2E,Canada
+CUST000594,6078 Willow Rd,Victoria,BC,U8 B6Y,Canada
+CUST000595,253 Oak St,Saskatoon,SK,P8 T5B,Canada
+CUST000596,8354 Cedar Lane,Charlottetown,PE,M3 I5H,Canada
+CUST000597,8420 Pine St,Montreal,QC,Z4 A5G,Canada
+CUST000598,7932 Elm Ave,St Johns,NL,Z2 W6W,Canada
+CUST000599,7908 Maple Ave,Hamilton,ON,V6 M5C,Canada
+CUST000600,5780 Elm Ave,Halifax,NS,L4 G6C,Canada
+CUST000601,7057 Willow St,Charlottetown,PE,E8 D2U,Canada
+CUST000602,4387 Cedar St,Fredericton,NB,T2 A4D,Canada
+CUST000603,310 Ash Ave,Victoria,BC,T1 R5V,Canada
+CUST000604,3029 Cedar St,Quebec City,QC,E6 J4X,Canada
+CUST000605,4352 Birch Lane,Edmonton,AB,R1 L3J,Canada
+CUST000606,1624 Elm Rd,Surrey,BC,B7 Z4W,Canada
+CUST000607,6517 Main St,Montreal,QC,D2 A0Y,Canada
+CUST000608,6983 Spruce St,Saskatoon,SK,C5 Z8F,Canada
+CUST000609,6576 Cedar Lane,Calgary,AB,U0 P4V,Canada
+CUST000610,8002 Maple Rd,Halifax,NS,O5 C3R,Canada
+CUST000611,6815 Oak Rd,Toronto,ON,S2 M6A,Canada
+CUST000612,2375 Maple St,Winnipeg,MB,M5 S4J,Canada
+CUST000613,2377 Cedar Blvd,Surrey,BC,H8 Q1T,Canada
+CUST000614,2106 Main Lane,Winnipeg,MB,O4 J3G,Canada
+CUST000615,362 Elm Rd,London,ON,W2 V8P,Canada
+CUST000616,1426 Elm St,Victoria,BC,T4 J5U,Canada
+CUST000617,90 Willow Ave,Charlottetown,PE,R1 F6G,Canada
+CUST000618,8113 Maple Ave,Fredericton,NB,A5 G2N,Canada
+CUST000619,631 Main St,Quebec City,QC,T5 H5Q,Canada
+CUST000620,5125 Willow Rd,Winnipeg,MB,S0 V2R,Canada
+CUST000621,3813 Birch Blvd,Fredericton,NB,O0 O1S,Canada
+CUST000622,1875 Maple Lane,Winnipeg,MB,D0 Z8B,Canada
+CUST000623,419 Maple Lane,Saskatoon,SK,N1 X2J,Canada
+CUST000624,9661 Ash Lane,Hamilton,ON,L5 Y1J,Canada
+CUST000625,4917 Ash Lane,St Johns,NL,Y0 N7G,Canada
+CUST000626,2518 Oak Rd,Hamilton,ON,P4 F1R,Canada
+CUST000627,3903 Cedar Blvd,London,ON,V2 Y2M,Canada
+CUST000628,1172 Main St,Toronto,ON,I7 U3T,Canada
+CUST000629,6972 Elm Blvd,London,ON,T8 W7T,Canada
+CUST000630,7657 Oak Blvd,Edmonton,AB,P2 Z2Z,Canada
+CUST000631,3411 Willow St,Montreal,QC,K8 Q2O,Canada
+CUST000632,1380 Elm Rd,Regina,SK,J4 M4Y,Canada
+CUST000633,1818 Cedar Rd,Red Deer,AB,X0 D0Y,Canada
+CUST000634,5746 Ash Blvd,Burnaby,BC,X4 T5P,Canada
+CUST000635,3822 Elm Ave,Toronto,ON,M7 H5N,Canada
+CUST000636,6409 Maple Ave,Surrey,BC,C2 N8V,Canada
+CUST000637,4204 Spruce Lane,London,ON,A2 G1R,Canada
+CUST000638,3140 Cedar Ave,St Johns,NL,P0 B7W,Canada
+CUST000639,355 Spruce St,Victoria,BC,O1 I0D,Canada
+CUST000640,7824 Main Lane,Charlottetown,PE,E2 W4L,Canada
+CUST000641,8738 Cedar Rd,Red Deer,AB,F7 Y8Z,Canada
+CUST000642,6454 Maple Ave,Surrey,BC,I6 F1Z,Canada
+CUST000643,3948 Spruce Lane,Calgary,AB,U3 P8J,Canada
+CUST000644,4685 Birch Blvd,Calgary,AB,Y4 I8U,Canada
+CUST000645,6974 Birch Blvd,Red Deer,AB,W2 H1W,Canada
+CUST000646,2423 Maple Lane,Montreal,QC,M2 E4X,Canada
+CUST000647,2675 Oak Lane,St Johns,NL,B3 T3T,Canada
+CUST000648,9643 Elm Rd,Edmonton,AB,C7 I2L,Canada
+CUST000649,8478 Cedar Blvd,St Johns,NL,E5 L7U,Canada
+CUST000650,4710 Oak Blvd,Halifax,NS,U7 S6Q,Canada
+CUST000651,1123 Cedar Ave,Toronto,ON,T2 S6D,Canada
+CUST000652,7572 Main St,London,ON,D8 O4H,Canada
+CUST000653,16 Spruce Ave,Victoria,BC,J0 Y6W,Canada
+CUST000654,4980 Main Rd,St Johns,NL,V0 U8R,Canada
+CUST000655,9884 Ash Rd,Burnaby,BC,D6 M5S,Canada
+CUST000656,9041 Birch Rd,Winnipeg,MB,S4 O7Q,Canada
+CUST000657,8750 Willow St,Toronto,ON,I1 L7K,Canada
+CUST000658,8402 Maple Rd,St Johns,NL,Y5 D0O,Canada
+CUST000659,1950 Maple Ave,Toronto,ON,S4 A8V,Canada
+CUST000660,8105 Willow Blvd,Victoria,BC,L8 Z8D,Canada
+CUST000661,3725 Elm Lane,Charlottetown,PE,R1 H1O,Canada
+CUST000662,593 Willow Lane,Saskatoon,SK,J2 C7U,Canada
+CUST000663,7688 Maple St,Calgary,AB,Q7 Z7E,Canada
+CUST000664,9691 Spruce Blvd,Saskatoon,SK,T3 U0T,Canada
+CUST000665,3316 Oak St,Halifax,NS,W5 F4M,Canada
+CUST000666,5237 Main St,St Johns,NL,D8 X0D,Canada
+CUST000667,5556 Maple Ave,Burnaby,BC,F8 Z1F,Canada
+CUST000668,2152 Willow Rd,Hamilton,ON,R5 K3J,Canada
+CUST000669,2731 Ash Blvd,Halifax,NS,X0 S7M,Canada
+CUST000670,8859 Spruce Lane,Vancouver,BC,H0 E8V,Canada
+CUST000671,9626 Birch St,Edmonton,AB,V3 D4Z,Canada
+CUST000672,5962 Oak Blvd,Red Deer,AB,R3 J3A,Canada
+CUST000673,8809 Ash St,Fredericton,NB,U4 U5Z,Canada
+CUST000674,4988 Willow Blvd,Red Deer,AB,P8 W1D,Canada
+CUST000675,1679 Elm St,Toronto,ON,G4 I8W,Canada
+CUST000676,9304 Birch Blvd,Hamilton,ON,I1 F4G,Canada
+CUST000677,8375 Spruce St,Victoria,BC,W6 J5K,Canada
+CUST000678,9191 Maple Lane,St Johns,NL,Y1 P8B,Canada
+CUST000679,8889 Birch St,Charlottetown,PE,Q0 X6U,Canada
+CUST000680,4906 Elm Ave,Vancouver,BC,Y0 M6D,Canada
+CUST000681,6809 Cedar Rd,Victoria,BC,L1 Z8T,Canada
+CUST000682,8539 Cedar Ave,Vancouver,BC,Q0 J2D,Canada
+CUST000683,8542 Pine Blvd,London,ON,R5 I1O,Canada
+CUST000684,5321 Maple St,Charlottetown,PE,G5 J0H,Canada
+CUST000685,6303 Main Blvd,Victoria,BC,R6 P0C,Canada
+CUST000686,9272 Elm Lane,London,ON,Z1 X2G,Canada
+CUST000687,4299 Elm St,Fredericton,NB,D7 Z4C,Canada
+CUST000688,1562 Pine Blvd,Calgary,AB,S5 O8M,Canada
+CUST000689,6817 Maple Rd,Victoria,BC,R2 G1D,Canada
+CUST000690,2265 Spruce St,Red Deer,AB,O1 S2U,Canada
+CUST000691,8137 Willow Ave,Surrey,BC,G0 G1K,Canada
+CUST000692,1059 Oak Lane,Montreal,QC,D4 J3U,Canada
+CUST000693,5591 Birch St,Charlottetown,PE,L1 T6E,Canada
+CUST000694,1260 Oak Rd,Charlottetown,PE,F7 Y0Y,Canada
+CUST000695,1208 Ash Ave,St Johns,NL,Y7 E0A,Canada
+CUST000696,3965 Pine Blvd,Winnipeg,MB,J0 K8D,Canada
+CUST000697,3735 Spruce Rd,London,ON,C6 M2Y,Canada
+CUST000698,411 Maple Blvd,Edmonton,AB,T0 T1R,Canada
+CUST000699,687 Cedar Blvd,Charlottetown,PE,H2 W6W,Canada
+CUST000700,4728 Elm Lane,Winnipeg,MB,T6 M3Y,Canada
+CUST000701,1567 Pine Rd,Burnaby,BC,Q5 Q8E,Canada
+CUST000702,9697 Main Blvd,Surrey,BC,E7 U1D,Canada
+CUST000703,9682 Oak Rd,Surrey,BC,U3 N4X,Canada
+CUST000704,3914 Elm Rd,Winnipeg,MB,B2 Z3J,Canada
+CUST000705,1048 Cedar Lane,Edmonton,AB,B4 H3E,Canada
+CUST000706,4755 Elm Rd,Ottawa,ON,S5 N6I,Canada
+CUST000707,1182 Main St,Vancouver,BC,A3 Y1H,Canada
+CUST000708,4915 Maple Blvd,St Johns,NL,D7 V7D,Canada
+CUST000709,4143 Spruce Ave,Vancouver,BC,X2 G6Z,Canada
+CUST000710,5266 Willow St,Red Deer,AB,K0 H4N,Canada
+CUST000711,4635 Ash Ave,Saskatoon,SK,R2 P5E,Canada
+CUST000712,2087 Willow Rd,Toronto,ON,Y5 D7A,Canada
+CUST000713,2281 Willow Blvd,Calgary,AB,T2 P3S,Canada
+CUST000714,6797 Cedar Ave,Vancouver,BC,K3 S5M,Canada
+CUST000715,3889 Main Blvd,Victoria,BC,A4 J7H,Canada
+CUST000716,8444 Oak Ave,Quebec City,QC,I6 S8W,Canada
+CUST000717,2477 Main Rd,Fredericton,NB,D2 Q8W,Canada
+CUST000718,8085 Main Ave,Fredericton,NB,B0 R0H,Canada
+CUST000719,5047 Willow St,Ottawa,ON,O5 J3P,Canada
+CUST000720,3754 Ash Blvd,Regina,SK,M6 B7P,Canada
+CUST000721,5156 Birch Rd,Red Deer,AB,L1 V5Z,Canada
+CUST000722,3875 Main Lane,Charlottetown,PE,X3 Q8Z,Canada
+CUST000723,1857 Birch Blvd,Charlottetown,PE,M5 W5A,Canada
+CUST000724,8778 Pine Blvd,Halifax,NS,D4 U2W,Canada
+CUST000725,6049 Elm Blvd,Surrey,BC,P1 C2U,Canada
+CUST000726,1203 Willow St,Edmonton,AB,B7 C0H,Canada
+CUST000727,4916 Maple Rd,Toronto,ON,P7 T0K,Canada
+CUST000728,1991 Oak Blvd,St Johns,NL,V8 R1N,Canada
+CUST000729,2441 Birch Blvd,Toronto,ON,W6 L6Q,Canada
+CUST000730,4582 Birch Blvd,Fredericton,NB,V3 A3T,Canada
+CUST000731,141 Main Lane,Surrey,BC,S5 T6J,Canada
+CUST000732,7098 Elm Lane,Red Deer,AB,Y2 U4D,Canada
+CUST000733,6815 Spruce Lane,Edmonton,AB,L5 K2M,Canada
+CUST000734,4153 Oak Blvd,St Johns,NL,V3 Q7W,Canada
+CUST000735,4740 Elm Rd,Victoria,BC,F1 V2I,Canada
+CUST000736,8069 Ash Lane,Saskatoon,SK,I3 M0E,Canada
+CUST000737,3989 Willow Lane,Montreal,QC,U2 L4F,Canada
+CUST000738,7982 Elm Ave,Quebec City,QC,S4 W0J,Canada
+CUST000739,4873 Birch Rd,Ottawa,ON,T7 O7W,Canada
+CUST000740,6945 Ash Rd,Hamilton,ON,T5 S7J,Canada
+CUST000741,9378 Pine St,London,ON,N3 Y0P,Canada
+CUST000742,8121 Cedar Blvd,London,ON,R0 I7N,Canada
+CUST000743,4774 Spruce Ave,Surrey,BC,Z7 S3F,Canada
+CUST000744,4134 Birch Rd,Edmonton,AB,Z4 F4G,Canada
+CUST000745,547 Cedar Ave,St Johns,NL,E8 I1W,Canada
+CUST000746,2759 Maple Ave,Ottawa,ON,X1 G5X,Canada
+CUST000747,7589 Willow Ave,Vancouver,BC,Y6 K3M,Canada
+CUST000748,7125 Maple Blvd,Quebec City,QC,P5 L2W,Canada
+CUST000749,9268 Elm St,Calgary,AB,Q5 Z4U,Canada
+CUST000750,5764 Willow St,Montreal,QC,I4 J8Q,Canada

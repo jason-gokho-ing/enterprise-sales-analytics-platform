@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 458.85714721679688,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1673.0973291894984,
+            "y": 0
+          },
+          "nodeIndex": "Date",
+          "nodeLineageTag": "5ce67c1b-113c-4f3f-92e0-7d720803ee27",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 1395.6687098047328,
+            "y": 221.5
+          },
+          "nodeIndex": "sales_analytics",
+          "nodeLineageTag": "4a6b8ead-c7fd-46fa-9f28-61ab9c780bfe",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 1076.4286193847656,
+            "y": 411.75
+          },
+          "nodeIndex": "Core KPI Measures",
+          "nodeLineageTag": "eebfbe20-5036-4dae-9d5a-ee709297a962",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1073.6687098047328,
+            "y": 149
+          },
+          "nodeIndex": "Time Intelligence",
+          "nodeLineageTag": "96d7cebb-d951-4f5c-baef-b83a9a0e34db",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

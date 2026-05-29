@@ -1,0 +1,180 @@
+table sales_analytics
+	lineageTag: 5aee0dca-6b3c-4b94-82d7-4db3affb122b
+
+	column order_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 05d554a9-61b5-4ca1-a33a-cd3b7a731691
+		summarizeBy: none
+		sourceColumn: order_date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column product_name
+		dataType: string
+		lineageTag: f45f58d5-6352-43d3-9a43-d1f79bb3fc99
+		summarizeBy: none
+		sourceColumn: product_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column category
+		dataType: string
+		lineageTag: e997939e-03ca-43da-bbd9-87c08eda575c
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = Automatic
+
+	column province
+		dataType: string
+		lineageTag: 7ebcb7e3-57b4-4bcc-acd6-de3f336cd27c
+		summarizeBy: none
+		sourceColumn: province
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_segment
+		dataType: string
+		lineageTag: bdfa3a37-825d-4124-9494-b7758f3f901f
+		summarizeBy: none
+		sourceColumn: customer_segment
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 1cffc3a5-4627-431c-9f86-0e1ddd264129
+		summarizeBy: sum
+		sourceColumn: order_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column cust_key
+		dataType: string
+		lineageTag: 6efefb51-f94b-4b23-b2ea-1a998e787720
+		summarizeBy: none
+		sourceColumn: cust_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column prd_key
+		dataType: string
+		lineageTag: f291a474-b5f1-4e51-9cb9-42aa05b8226a
+		summarizeBy: none
+		sourceColumn: prd_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column price_tier
+		dataType: string
+		lineageTag: 64be8c92-f7e2-486f-bb58-7d1c2e4f9a6d
+		summarizeBy: none
+		sourceColumn: price_tier
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column unit_price
+		dataType: double
+		lineageTag: c0daf35c-b024-4af9-a3f1-c2498cc70384
+		summarizeBy: sum
+		sourceColumn: unit_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column cost
+		dataType: double
+		lineageTag: 8bd0ca60-c19f-406c-a3eb-4a10e5a8dedf
+		summarizeBy: sum
+		sourceColumn: cost
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column order_channel
+		dataType: string
+		lineageTag: 1ba64ae0-c1c6-4150-8913-5a143bf90751
+		summarizeBy: none
+		sourceColumn: order_channel
+
+		annotation SummarizationSetBy = Automatic
+
+	column customer_name
+		dataType: string
+		lineageTag: 2cfd4457-9f5b-43c5-9c66-1cc0a9f9fd61
+		summarizeBy: none
+		sourceColumn: customer_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column qty
+		dataType: int64
+		formatString: 0
+		lineageTag: 50cd4515-180b-4fdd-9d99-2b59f2b470fe
+		summarizeBy: sum
+		sourceColumn: qty
+
+		annotation SummarizationSetBy = Automatic
+
+	column gender
+		dataType: string
+		lineageTag: c7c65b60-ce59-4fc2-b791-553b1318f6e1
+		summarizeBy: none
+		sourceColumn: gender
+
+		annotation SummarizationSetBy = Automatic
+
+	column birthdate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 36b4c329-868b-4d2a-b45f-61c140e3a13b
+		summarizeBy: none
+		sourceColumn: birthdate
+
+		variation Variation
+			isDefault
+			relationship: 415b3b5c-a0d3-4f29-a856-d512969cfa9a
+			defaultHierarchy: LocalDateTable_578bdfff-786b-4ae3-9ff5-6501d7828163.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column customer_age
+		dataType: int64
+		formatString: 0
+		lineageTag: c45da878-595e-426a-a15f-04ca745873e3
+		summarizeBy: sum
+		sourceColumn: customer_age
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_group
+		dataType: string
+		lineageTag: 9af212b1-aee5-4fbe-91d7-38809e303d03
+		summarizeBy: none
+		sourceColumn: age_group
+
+		annotation SummarizationSetBy = Automatic
+
+	partition sales_analytics = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database(".\SQLEXPRESS", "DWH"),
+				    gold_sales_analytics = Source{[Schema="gold",Item="sales_analytics"]}[Data]
+				in
+				    gold_sales_analytics
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Exception
+

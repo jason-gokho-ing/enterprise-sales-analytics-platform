@@ -1,0 +1,29 @@
+table 'Time Intelligence'
+	lineageTag: 96d7cebb-d951-4f5c-baef-b83a9a0e34db
+
+	measure 'Sales Prior Year' =
+			
+			CALCULATE([Total Sales], SAMEPERIODLASTYEAR('Date'[Date]))
+		lineageTag: 4aa4d28f-015b-471a-b2b6-913a0b52603e
+
+	measure 'YoY Sales Growth %' =
+			
+			DIVIDE([Total Sales] - [Sales Prior Year], [Sales Prior Year], 0)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: ac7c45b3-183f-40db-aaa7-c7dd6497ffbf
+
+	column Value
+		formatString: 0
+		lineageTag: d9c148a7-ff87-405d-be90-4f5a64c2f778
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Value]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Time Intelligence' = calculated
+		mode: import
+		source = {1}
+
+	annotation PBI_Id = dda048b154ef4e3d952c899ffc61e46b
+
