@@ -81,6 +81,21 @@ These screenshots show the executive summary, the customer analysis page, and th
 
 The report is built on `gold.sales_analytics` and focuses on a small, well-defined measure set described below.
 
+## Power BI Semantic Model
+
+The Power BI semantic model (see image below) uses Gold presentation tables plus a Date table to power the report pages. Key elements visible in `images/pbi_semantic_model.png`:
+
+- `gold.dim_customer_info`: `cust_key`, `customer_name`, `customer_segment`, `customer_age`, `gender`, `birthdate`, `created_date`
+- `gold.dim_product_info`: `prd_key`, `product_name`, `category`, `cost`, `list_price`, `price_tier`
+- `Date` table: `Date`, `Month`, `Month Number`, `Quarter`, `Year`
+- `sales_analytics` (Gold view): measures and denormalized attributes such as `cust_key`, `category`, `cost`, `customer_age`, `customer_name`, `customer_segment`, `birthdate`, and `age_group`
+
+Relationships are standard lookup cardinalities from the dimension tables and `Date` into the `sales_analytics` view (1 → *); the model keeps calculations in Gold so visuals can use thin, auditable measures.
+
+<img src="images/pbi_semantic_model.png" alt="Power BI semantic model (tables and relationships)" width="720" />
+
+_Power BI semantic model showing Gold dimensions, Date table, and the `sales_analytics` view._
+
 ## Metric Definition Schema
 
 | Metric Name | Calculation (SQL logic) | Business Context |
@@ -90,7 +105,7 @@ The report is built on `gold.sales_analytics` and focuses on a small, well-defin
 | Total Sales | `SUM(unit_price * qty)` | Revenue recognized at line level |
 | Total Orders | `COUNT(DISTINCT order_id)` | Order volume for period analysis |
 | Unique Customers | `COUNT(DISTINCT cust_key)` | Customer base size; used for per-customer metrics |
-| Customer Tenure (days) | `DATEDIFF(DAY, created_date, GETDATE())` | Input to loyalty segmentation and churn signals |
+
 
 Include these definitions in the semantic model to keep visual calculations thin and auditable.
 
