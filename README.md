@@ -68,9 +68,9 @@ These screenshots show the executive summary, the customer analysis page, and th
 		<th align="center">Product</th>
 	</tr>
 	<tr>
-		<td align="center"><img src="images/pbi_executive_overview.png" alt="Executive overview" width="360" /></td>
-		<td align="center"><img src="images/pbi_customer_analysis.png" alt="Customer analysis" width="360" /></td>
-		<td align="center"><img src="images/pbi_product_analysis.png" alt="Product analysis" width="360" /></td>
+		<td align="center"><img src="images/pbi_executive_overview.png" alt="Executive overview" width="440" /></td>
+		<td align="center"><img src="images/pbi_customer_analysis.png" alt="Customer analysis" width="440" /></td>
+		<td align="center"><img src="images/pbi_product_analysis.png" alt="Product analysis" width="440" /></td>
 	</tr>
 	<tr>
 		<td align="center">Top-line KPI view for a fast business check.</td>
@@ -92,7 +92,7 @@ The Power BI semantic model (see image below) uses Gold presentation tables plus
 
 Relationships are standard lookup cardinalities from the dimension tables and `Date` into the `sales_analytics` view (1 → *); the model keeps calculations in Gold so visuals can use thin, auditable measures.
 
-<img src="images/pbi_semantic_model.png" alt="Power BI semantic model (tables and relationships)" width="720" />
+<img src="images/pbi_semantic_model.png" alt="Power BI semantic model (tables and relationships)" width="560" />
 
 _Power BI semantic model showing Gold dimensions, Date table, and the `sales_analytics` view._
 
