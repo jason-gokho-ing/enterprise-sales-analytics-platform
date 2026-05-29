@@ -41,8 +41,8 @@ _Architecture view of the full Bronze → Silver → Gold flow._
 To support scalable reporting and fast analytical queries, the Silver layer uses a simple star schema (one fact table + supporting dimensions).
 
 - `silver.fact_orders`: transaction-grain fact table (one row per order line) storing keys to dimensions and numeric measures (`unit_price`, `cost`, `qty`).
-- `silver.dim_customer`: cleaned and standardized customer attributes used across reports (`cust_key`, `name`, `tier`, `signup_date`).
-- `silver.dim_product`: standard product attributes (`prd_key`, `sku`, `category`, `cost_basis`).
+- `silver.dim_customer`: cleaned and standardized customer attributes used across reports (`cust_key`, `name`, `price_tier`).
+- `silver.dim_product`: standard product attributes (`prd_key`, `category`, `cost`).
 
 Gold is a presentation layer: `gold.sales_analytics` flattens selected dimensions into a single view optimized for Power BI (fewer joins, pre-calculated measures where appropriate).
 
