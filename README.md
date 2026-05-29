@@ -113,17 +113,17 @@ Include these definitions in the semantic model to keep visual calculations thin
 
 Source files live in `data/crm/` and `data/erp/`. Bronze tables hold the raw customer, product, sales, demographics, and location data. Silver tables create the cleaned customer dimension, product dimension, and order fact table. Gold exposes the reporting view `gold.sales_analytics` for Power BI and validation.
 
-## Silver Data Quality Rules
+## Silver Data Quality
 
-The Silver layer enforces explicit production-grade quality rules so the Gold view is auditable and repeatable:
+The Silver layer applies a few clear checks so the Gold view is reliable and easy to audit. Here are simple, concrete examples:
 
-- Idempotence: transformations are transaction-safe and designed to be re-run without producing duplicates (staging truncation + `BEGIN TRAN` / `TRY...CATCH` with explicit `THROW` on failure).
-- Deduplication: deterministic windowing (`ROW_NUMBER() OVER (PARTITION BY <business_key> ORDER BY last_modified DESC)`) retains the latest active record per entity.
-- Referential Integrity: fact tables are validated to ensure `cust_key` and `prd_key` reference existing dimension keys (DQ checks flag orphaned keys).
-- String normalization: trimming, case normalization, and deterministic mapping of common variants (e.g., `M|Male|MALE` → `Male`).
-- Business constraints: numeric ranges and nullability checks (prices >= 0, qty > 0) to catch malformed source rows before they reach Gold.
+- Re-run safe: running the pipeline again won't create duplicate rows (updates are transactional).
+- Deduplication: keep the most recent record for each business key (so the latest customer data wins).
+- Referential checks: orders must link to an existing customer and product; broken links are flagged.
+- Data hygiene: trim and normalize strings (for example, `M|Male|MALE` → `Male`) and fix casing.
+- Business rules: enforce sensible values (for example, `price >= 0` and `qty > 0`).
 
-These rules are implemented in `sql/02_silver/transform_data.sql` and are surfaced in the automated validation step.
+Full implementation details (transactions, windowing, and the DQ checks) live in `sql/02_silver/transform_data.sql`.
 
 ## Run it locally
 
