@@ -63,14 +63,14 @@ These screenshots show the executive summary, the customer analysis page, and th
 
 <table>
 	<tr>
-		<th align="center">Executive</th>
-		<th align="center">Customer</th>
-		<th align="center">Product</th>
+		<th align="center" width="840">Executive</th>
+		<th align="center" width="840">Customer</th>
+		<th align="center" width="840">Product</th>
 	</tr>
 	<tr>
-		<td align="center"><img src="images/pbi_executive_overview.png" alt="Executive overview" width="440" /></td>
-		<td align="center"><img src="images/pbi_customer_analysis.png" alt="Customer analysis" width="440" /></td>
-		<td align="center"><img src="images/pbi_product_analysis.png" alt="Product analysis" width="440" /></td>
+		<td align="center"><img src="images/pbi_executive_overview.png" alt="Executive overview" width="840" /></td>
+		<td align="center"><img src="images/pbi_customer_analysis.png" alt="Customer analysis" width="840" /></td>
+		<td align="center"><img src="images/pbi_product_analysis.png" alt="Product analysis" width="840" /></td>
 	</tr>
 	<tr>
 		<td align="center">Top-line KPI view for a fast business check.</td>
